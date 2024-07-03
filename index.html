@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Responsive Design with Bootstrap</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="./Style.css">
+</head>
+<body>
+  <header>
+    <div class="container-fluid p-0">
+      <nav class="navbar navbar-expand-lg">
+  <a class="navbar-brand" href="#">
+  <i class="fas fa-book-reader fa-2x mx-3"></i>RUDRA'S BOOKS-HUB</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="#navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fas fa-align-right text-light"></i>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <div class="mr-auto"></div>
+          <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#home">HOME<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#price">PRICE</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#review's">REVIEW'S</a>
+      </li>
+      <li class="nav-item dropdown">
+        <div class="dropdown">
+          <a href="#" class="nav-link">ABOUT</a>
+          <div class="dropdown-content">
+            <a href="#aboutauthor">ABOUT AUTHOR</a>
+            <a href="#aboutus">ABOUT US</a>
+          </div>
+        </div>
+      </li>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0 custom-button" type="submit">Search</button>
+      </form>      
+    </ul>
+  </div>
+</nav>
+    <div class="container text-center" id="home">
+      <div class="row">
+        <div class="col-md-7 col-sm-12  text-white">
+          <h6>AUTHOR: WILLIAM SHAKESPEARE</h6>
+          <h1>OTHELLO</h1>
+          <p>
+            Othello is a tragedy written around 1603. The story revolves around two characters, Othello and Iago. Othello is a Moorish military commander who was serving as a general of the Venetian army in defence of Cyprus against invasion by Ottoman Turks.
+          </p>
+          <button class="btn btn-light px-5 py-2 primary-btn2">
+            By now for just ₹150
+          </button>
+        </div>
+        <div class="col-md-5 col-sm-12  h-25">
+          <img src="https://ouch-cdn2.icons8.com/B5EPYMlvwtZX_6p-uSzrurDumNc8Axy8jxUH1Fjh414/rs:fit:368:473/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvMTcw/LzhlZGZiNjE1LWVj/YjEtNDNjOC05NWU1/LTBjMmMyNGVlZTI1/MS5wbmc.png" alt="Book" />
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="section-1" id="aboutauthor">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-md-6 col-12">
+            <div class="pray">
+              <img src="https://wallpapers.com/images/high/portrait-pictures-el3sgvu58n8nbwxw.webp">
+            </div>
+          </div>
+          <div class="col-md-6 col-12">
+            <div class="panel text-left">
+              <h1>William Shakespeare</h1>
+              <p class="pt-4">
+                William Shakespeare was an English playwright, poet, and actor. He is widely regarded as the greatest writer in the English language and the world's pre-eminent dramatist. 
+                He is often called England's national poet and the "Bard of Avon"
+              </p>
+              <p>
+                Shakespeare produced most of his known works between 1589 and 1613. His early plays were primarily comedies and histories and are regarded as some of the best works produced in these genres. He then wrote mainly tragedies until 1608, among them Hamlet, Romeo and Juliet, Othello, King Lear, and Macbeth, all considered to be among the finest works in the English language
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-2 container-fluid p-0">
+      <div class="cover">
+        <div class="overlay"></div>
+        <div class="content text-center">
+          <h1>Some Features That Made Us Unique</h1>
+        </div>
+      </div>
+      <div class="container-fluid text-center">
+        <div class="numbers d-flex flex-md-row flex-wrap justify-content-center">
+          <div class="rect">
+            <h1>2345</h1>
+            <p>Happy Client</p>
+          </div>
+          <div class="rect">
+            <h1>3056</h1>
+            <p>Books Order Till Now</p>
+          </div>
+          <div class="rect">
+            <h1>1052</h1>
+            <p>Tickets Submitted</p>
+          </div>
+        </div>
+      </div>
+      <div class="purchase text-center" id="price">
+        <h1>Purchase Whatever You Want</h1>
+        <p>
+          Get everything at the best possible price. <br> Offer Closes Soon.
+        </p>
+        <div class="cards">
+          <div class="d-flex flex-row justify-content-center flex-wrap">
+            <div class="card">
+              <div class="card-body">
+                <div class="title">
+                  <h3 class="card-title">PDF</h3>
+                </div>
+                <p class="card-text">
+                  <strong>Fast Download At Just Rs.</strong> 
+                </p>
+                <div class="pricing">
+                  <h1>₹550</h1>
+                  <a href="#" class="btn btn-dark px-5 py-2 primary-btn mb-5">Purchase Now</a>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <div class="title">
+                  <h3 class="card-title">E-book</h3>
+                </div>
+                <p class="card-text">
+                  <strong>Fast Download At Just Rs.</strong>
+                </p>
+                <div class="pricing">
+                  <h1>₹450</h1>
+                  <a href="#" class="btn btn-dark px-5 py-2 primary-btn mb-5">Purchase Now</a>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <div class="title">
+                  <h3 class="card-title">Print Copy</h3>
+                </div>
+                <p class="card-text">
+                  <strong>Fast Download At Just Rs</strong>
+                </p>
+                <div class="pricing">
+                  <h1>₹350</h1>
+                  <a href="#" class="btn btn-dark px-5 py-2 primary-btn mb-5">Purchase Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-3 container-fluid p-0 text-center">
+      <div class="row">
+        <div class="col-md-12 col-sm-12">
+          <h1>Download Our App for all Platform</h1>
+        </div>
+      </div>
+      <div class="platform row">
+        <div class="col-md-6 col-sm-12 text-right">
+          <div class="desktop shadow-lg">
+            <div class="d-flex flex-row justify-content-center">
+              <i class="fas fa-desktop fa-3x py-2 pr-3"></i>
+              <div class="text text-left">
+                <h3 class="pt-1 m-0">Desktop</h3>
+                <p class="p-0 m-0">On website</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12 text-left">
+          <div class="desktop shadow-lg">
+            <div class="d-flex flex-row justify-content-center">
+              <i class="fas fa-mobile-alt fa-3x py-2 pr-3"></i>
+              <div class="text text-left">
+                <h3 class="pt-1 m-0">On Mobile</h3>
+                <p class="p-0 m-0">On Play Store</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 4 -->
+    <section class="section-4">
+      <div class="container text-center">
+        <h1 class="text-dark">What our Reader's Say about us</h1>
+        <p class="text-secondary">Read the actual & genuine Reviews.</p>
+      </div>
+      <div class="team row " id="review's">
+        <div class="col-md-4 col-12 text-center">
+            <div class="card mr-2 d-inline-block shadow-lg">
+                <div class="card-img-top">
+                  <img src="https://media.istockphoto.com/id/1090878494/photo/close-up-portrait-of-young-smiling-handsome-man-in-blue-polo-shirt-isolated-on-gray-background.jpg?s=612x612&w=0&k=20&c=AycQ2obu8sgJxWAJgYBbYR6jeRB9Bhs1JZBXzSgL6LE=" class="img-fluid border-radius p-4" alt="">
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title">Ankur Mondal</h3>
+                  <p class="card-text">
+                    The website is designed with the user in mind. Its clean, intuitive layout makes browsing and searching for books a pleasant experience. 
+                    With easy-to-navigate categories and a powerful search function, finding your next read is quick and hassle-free.
+                  </p>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4 col-12 text-center">
+          <div class="card mr-2 d-inline-block shadow-lg">
+              <div class="card-img-top">
+                <img src="https://media.istockphoto.com/id/1293903541/photo/young-woman-stock-photo.jpg?s=612x612&w=0&k=20&c=AvQGpGDrH-0nUNAL-uHuc1uidcTiiLbovyKJjsN_mOk=" class="img-fluid border-radius p-4" alt="">
+              </div>
+              <div class="card-body">
+                <h3 class="card-title">Ishita Kumari</h3>
+                <p class="card-text">
+                  Quality matters when it comes to digital reading, and [Website Name] doesn't disappoint. 
+                  The books available for download are well-formatted and free of errors, making for a smooth and enjoyable reading experience on any device.
+                </p>
+              </div>
+            </div>
+      </div>
+        <div class="col-md-4 col-12 text-center">
+          <div class="card mr-2 d-inline-block shadow-lg">
+              <div class="card-img-top">
+                <img src="https://media.istockphoto.com/id/1313502972/photo/portrait-of-beautiful-woman-having-fun.jpg?s=612x612&w=0&k=20&c=DHGWp3wIoSlpjK9xFdARpgpyo4t-hIzuqOSx5ZyRsHA=" class="img-fluid border-radius p-4" alt="">
+              </div>
+              <div class="card-body">
+                <h3 class="card-title">Anjali Patra</h3>
+                <p class="card-text">
+                  The website is designed with the user in mind. Its clean, intuitive layout makes browsing and searching for books a pleasant experience. 
+                  With easy-to-navigate categories and a powerful search function, finding your next read is quick and hassle-free.
+                </p>
+              </div>
+            </div>
+      </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container-fluid p-0" id="aboutus">
+      <div class="row text-left">
+        <div class="col-md-5 col-sm-5">
+          <h4 class="text-light">About us</h4>
+          <p class="text-muted">Thank you for choosing our website, as your go-to source for reading and downloading books. 
+            We look forward to being a part of your literary journey! Happy reading!</p>
+          <p class="pt-4 text-muted">Copyright ©2019 All rights reserved | This template is made with by <span> RUDRA ROYCHOWDHURY </span>
+          </p>
+        </div>
+        
+        <div class="col-md-5 col-sm-12">
+          <h4 class="text-light">Newsletter</h4>
+          <p class="text-muted">Stay Updated</p>
+          <form class="form-inline">
+            <div class="col pl-0">
+              <div class="input-group pr-5">
+                <input type="text" class="form-control bg-dark text-white" id="inlineFormInputGroupUsername2" placeholder="Email">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">
+                    <i class="fas fa-arrow-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-2 col-sm-12">
+          <h4 class="text-light">Follow Us</h4>
+          <p class="text-muted">Let us be social</p>
+          <div class="column text-light">&nbsp&nbsp
+            <a href="https://www.facebook.com/profile.php?id=100021177077919&mibextid=ZbWKwL"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/rudraroy79358?igsh=M2pqeGl5NjZ6N2Np"><i class="fab fa-instagram"></i></a>
+            <a href="https://x.com/Rudraroy79358"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  </body>
+</html>
