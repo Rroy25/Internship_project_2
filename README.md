@@ -1,6 +1,6 @@
 # Internship_project_2 <br>
 <h1>Responsive Design with Bootstrap</h1>
-Web development project 2 of <b>TheBlackPearls<b> <br>
+Web development project 2 of <b>TheBlackPearls<b> <br><br>
 Which fullfil this points: <br>
 <h3>Description:</h3>
 <ui>
